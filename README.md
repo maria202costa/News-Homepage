@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL]()
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/a-news-homepage-responsive-project-with-htmll-and-css-EHVB-fazC7)
 - Live Site URL: [Live Site URL](https://news-homepage-tawny-kappa.vercel.app/)
 
 ### Built with
