@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--Desktop navbar-->
     <nav class="navbar">
       <img src="/assets/images/logo.svg" alt="Homepage Site Logo" />
       <div class="navigations">
@@ -38,6 +39,45 @@
       </div>
     </nav>
 
+    <!--Mobile Navbar-->
+    <nav class="navbar-icon">
+      <img src="/assets/images/logo.svg" alt="Homepage Site Logo" />
+      <button id="open-menu" aria-describedby="Click to open the menu">
+        <img src="/assets/images/icon-menu.svg" alt="Menu Open Button" />
+      </button>
+    </nav>
+
+    <nav class="navbar-mobile">
+      <div class="mobile-menu">
+        <button id="close-menu" aria-describedby="Click to close the menu">
+          <img
+            src="/assets/images/icon-menu-close.svg"
+            alt="Menu Close Button"
+          />
+        </button>
+        <div class="navigations-mobile">
+          <a href="#" aria-describedby="Click for go to the home page">Home</a>
+          <a href="#" aria-describedby="Click for go to the news articles page"
+            >New</a
+          >
+          <a
+            href="#"
+            aria-describedby="Click for go to the popular articles page"
+            >Popular</a
+          >
+          <a href="#" aria-describedby="Click for go to trending articles page"
+            >Trending</a
+          >
+          <a
+            href="#"
+            aria-describedby="Click for go to the articles categories page"
+            >Categories</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!--Desktop version-->
     <main class="container">
       <div class="main-news">
         <img
